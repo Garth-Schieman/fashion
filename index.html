@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>G.S Styleware</title>
+    <title>Skate Fiesta</title>
+    <!-- link to icon for title -->
+    <link rel="icon" type="image/PNG" href="images/title.jpg">
     <!-- link to main css  -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <!-- link to font awesome icons -->
@@ -9,38 +11,165 @@
 </head>
 <body>
     <header id="header">
-        <ul id="topHeader">
-            <li>
-                <small>EN</small>
-                <i class="fas fa-angle-down"></i>
-                <small>ZAR</small>
-                <i class="fas fa-angle-down"></i>
-            </li>
-            <li>
-                <small>Free shipping for standard orders over R100</small>
-            </li>
-            <li>
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-google-plus-g"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-pinterest"></i>
-            </li>
-        </ul>
-        <nav id="mainNav">
-            
+        <div id="topHeader">
             <ul>
-                <li><i class="fas fa-search"></i></li>
-                <li><a href="">Home</a></li>
-                <li><a href="">Shop</a></li>
-                <li><a href="">About</a></li>
-                <li><a href=""><bold>NATEB</></a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">Lookbook</a></li>
-                <li><i class="fas fa-shopping-cart"></i></li>
+                <li>
+                    <small>EN</small>
+                    <i class="fas fa-angle-down"></i>
+                    <small>ZAR</small>
+                    <i class="fas fa-angle-down"></i>
+                </li>
+                <li>
+                    <small>Free shipping for standard orders over R100</small>
+                </li>
+                <li>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-google-plus-g"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest"></i>
+                </li>
             </ul>
-            <img src="images/landingpage.jpg" alt="landingPage" width="100%">
-        </nav>
+        </div>
+            
+        <div id="overLayerContainer"> 
+            <img src="images/landingpage.jpg" alt="" width="100%" height="750px">
+            <nav id="mainNav">
+                <ul>
+                    <li><i class="fas fa-search"></i></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href=""><bold id="investorName">NATEB</bold></a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Lookbook</a></li>
+                    <li><i class="fas fa-shopping-cart"></i></li>
+                </ul>
+            </nav>
+            <div id="overLayer">
+                    <h1>Skate Fiesta</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, rem pariatur ad optio blanditiis autem error laudantium sed. Assumenda, est deleniti ducimus maiores nam perspiciatis mollitia rerum eligendi veritatis doloremque.</p>
+                    <button id="lookBookButton">LOOK BOOK</button>
+            </div> 
+            <i class="fas fa-angle-down" id="scrollDownIcon"></i>
+        </div>
+        
     </header>
+
+    <section id="featuredProductContainer">
+
+        <h2>FEATUR<span style="border-bottom:2px solid #a88d7b;">ED P</span>RODUCT</h2>
+        <div id="featuredProductImages">
+            <div>
+                <img src="images/image1.jpg" alt="featuredProductImages1" width="370px" height="360px">
+                <h3 id="featuredProductNames">Russel Safety Gear</h3>
+                <small id="center p1 featuredProductPrices">R100.00</small>
+            </div>
+            <div>
+                <img src="images/image4.jpg" alt="featuredProductImages2" width="370px" height="360px">
+                <h3 id="featuredProductNames">Bobs Spacy Pants</h3>
+                <small id="center p1 featuredProductPrices">R175.00</small>
+            </div>
+            <div>
+                <img src="images/image2.jpg" alt="featuredProductImages3" width="370px" height="360px">
+                <h3 id="featuredProductNames">Lauren Summer Shorts</h3>
+                <small id="center p1 featuredProductPrices">R250.00</small>
+            </div>
+        </div>
+    </section>
+
+    <section id="newCollectionContainer">
+        <h2>NEW C<span style="border-bottom:2px solid #a88d7b;">OLL</span>ECTION</h2>
+        <div id="newCollectionImages">
+            <div>
+                <img src="images/image8.jpg" alt="newCollectionImagesMen" width="570px" height="373px">
+                <p style="color:#a88d7b;">MEN</p>
+            </div>
+            <div>
+                <img src="images/image13.jpg" alt="newCollectionImagesWomen" width="570px" height="373px">
+                <p style="color:#a88d7b;">WOMEN</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="handCraftContainer">
+        <div id="handCraftInfo">
+            <h3 id="handCraftHeading">HAND CRAFT LEATHER GOODS</h3>
+            <p i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, rem pariatur ad optio blanditiis autem error laudantium sed.</p>
+            <button id="viewMoreButton">VIEW MORE</button>
+        </div> 
+    </section>
+
+    <section id="ourBlogContainer">
+        <h2>OU<span style="border-bottom:2px solid #a88d7b;">R BL</span>OG</h2>
+        <div id="ourBlogInfo">
+            <div>
+                <img src="images/image10.jpg" alt="ourBlog" width="585px" height="405px">
+            </div>
+            <div style="text-align:left;">
+                <h3>ACCESSORIES FOR E</h3>
+                <small>March 18,2019</small>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi in nesciunt possimus blanditiis omnis corporis deserunt distinctio, voluptas cupiditate quibusdam harum odio alias nisi inventore temporibus obcaecati itaque, vero eum.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita officia delectus veritatis ab quidem quisquam voluptates voluptatum! Praesentium quaerat, consequatur esse, pariatur ipsum rem explicabo veniam, adipisci autem porro nulla? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut corrupti reprehenderit quas? Sequi distinctio qui doloribus consequatur officiis ullam similique totam hic? Iure voluptas possimus suscipit eligendi, molestiae dolor beatae. </p>
+                <button id="ourBlogButton">READ MORE</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="footer">
+            <div>
+                <h3 class="footerHeadingColour">NATEB</h3>
+                <table>
+                    <tr>
+                        <td><i class="fas fa-map-marker-alt"></i></td>
+                        <td>376 5th Ave Rondebosch, CT 7700</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fas fa-phone"></i></td>
+                        <td>(+27) 78 372 2074</td>
+                    </tr>
+                    <tr>
+                        <td><i class="far fa-envelope"></i></td>
+                        <td>contact@nate_nonpareil.com</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <h3 class="footerHeadingColour">LINKS</h3>
+                <ul class="footerListItems">
+                    <li>Product</li>
+                    <li>Featured</li>
+                    <li>Privacy Policy</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footerHeadingColour">SHOP</h3>
+                <ul class="footerListItems">
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>Lookbook</li>
+                    <li>Support</li>
+                </ul>
+            </div>
+            <div>
+                <h3>INSTAGRAM</h3>
+                <div id="instagramImages">
+                    <img src="images/image1.jpg" alt="instagramImages" width="80px" height="80px">
+                    <img src="images/image16.jpg" alt="instagramImages" width="80px" height="80px">
+                    <img src="images/image15.jpg" alt="instagramImages" width="80px" height="80px">
+                    <img src="images/image11.jpg" alt="instagramImages" width="80px" height="80px">
+    
+                    <img src="images/image7.jpg" alt="instagramImages" width="80px" height="80px">
+                    <img src="images/image5.jpg" alt="instagramImages" width="80px" height="80px">
+                    <img src="images/image4.jpg" alt="instagramImages" width="80px" height="80px">
+                    <img src="images/image3.jpg" alt="instagramImages" width="80px" height="80px">
+                </div>
+            </div>
+        </div>
+        <div id="signatureBar">
+            <p>Copyright &COPY; 2019 Designed by nate_nonpareil.All rights reserved.</p>
+            <small>Site Made by G.J.S Inovative</small>
+        </div>
+    </footer>
 </body>
 </html>
